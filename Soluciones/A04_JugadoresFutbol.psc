@@ -27,7 +27,7 @@ Algoritmo A04_JugadoresFutbol
         totalEdades <- totalEdades + edad
         totalEstaturas <- totalEstaturas + estatura
         contador <- contador + 1
-		Escribir nombre , " -" , posicion , "-, edad " , edad , ", estatura " , estatura , "\n"
+		Escribir nombre , " -" , posicion , "-, edad " , edad , ", estatura " , estatura
         Escribir "¿Desea ingresar otro jugador? (Si/No)"
         Leer decision
 		Si (decision="SI" O decision="Si" O decision="si" O decision="SIIIU")Entonces
