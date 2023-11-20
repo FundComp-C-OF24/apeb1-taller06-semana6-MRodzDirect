@@ -1,11 +1,13 @@
-Algoritmo A03_CostEmpleados
-	Escribir "Ingrese la cantidad de empleados que tiene en su empresa/negocio:"
-	Leer n
+Algoritmo A03_Cost5Empleados
+	Definir nombre Como Caracter
+	Definir i, dias, cost, numEmp como Entero
+	Definir costTotal Como Real
+	n = 5
 	// n nuestro limite
 	i=0
 	// i nuestro contador
 	numEmp=1
-	// numEmp nuestro acumulador (pero aqui lo uso mas para mantener el numero del empleado consistente :)
+	// numEmp nuestro acumulador (pero aqui lo uso mas para mantener el numero del empleado consistente :) )
 	Mientras (i<n)
 		Escribir "Ingrese el nombre de su empleado # ", numEmp
 		Leer nombre
